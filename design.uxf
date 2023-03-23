@@ -1,1 +1,45 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level></diagram>
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>250</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>JumpEq
+--
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1480</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>Copy
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>Halt
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1230</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>Mul
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>Jump
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>990</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>Print
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>260</y><w>210</w><h>70</h></coordinates><panel_attributes>Add
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>100</y><w>210</w><h>70</h></coordinates><panel_attributes>&lt;&lt; interface &gt;&gt;
+Instruction
+--
++ execute( )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2490</x><y>10</y><w>210</w><h>160</h></coordinates><panel_attributes>Computer
+--
+
+--
++ Computer( Memory memory )
++ load( Program program )
++ run( )</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2060</x><y>40</y><w>210</w><h>70</h></coordinates><panel_attributes>Address
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2490</x><y>380</y><w>210</w><h>70</h></coordinates><panel_attributes>&lt;&lt; interface &gt;&gt;
+LinkedList
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2490</x><y>510</y><w>210</w><h>70</h></coordinates><panel_attributes>Program
+--
+- int programCounter
+--
++add( )
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2490</x><y>650</y><w>210</w><h>70</h></coordinates><panel_attributes>Factorial
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2870</x><y>320</y><w>210</w><h>70</h></coordinates><panel_attributes>Memory
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2870</x><y>440</y><w>210</w><h>70</h></coordinates><panel_attributes>LongMemory
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2870</x><y>570</y><w>210</w><h>70</h></coordinates><panel_attributes>LongWord
+--
+- long word
+--
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
